@@ -18,9 +18,9 @@ To compile, simply run:
 
 To encode:
 
-	$ ./hidefy -m "secret message" cover_image.bmp
+	$ ./hidefy -m "secret message" sample.bmp
 
 To decode: (text is printed to stdout by default)
 
-	$ ./hidefy -x stego_image.bmp
+	$ ./hidefy -x sample_stego.bmp
 
